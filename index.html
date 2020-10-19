@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/normalize.css">
+
+  <title>Calculator</title>
+</head>
+<body>
+  <header>
+    <h1 class="page-title visually-hidden">Calculator</h1>
+  </header>
+
+  <main class="main-container">
+    <div class="calculator__wrap">
+      <div class="calculator">
+        
+          <header class="header__section">
+            <h3 class="calc__title">Calculator</h3>
+          </header>
+          <section class="calc__section">
+            <div class="calc__output">
+              <p class="calc__output--item memory-part"></p>
+              <p class="calc__output--item current-part calc__output--pre">0</p>
+            </div>
+          </section>
+          <section class="calc__section">
+            <div class="calc__buttons--wrap">
+              <button class="calc__btn reset">C</button>
+              <button class="calc__btn func__symbal pow">x<sup>n</sup></button>
+              <button class="calc__btn sqrt">&#8730;x</button>
+              <button class="calc__btn backspace">&#9949</button>
+
+              <button class="calc__btn calc__number">7</button>
+              <button class="calc__btn calc__number">8</button>
+              <button class="calc__btn calc__number nine">9</button>
+              <button class="calc__btn func__symbal division">/</button>
+
+              <button class="calc__btn calc__number">4</button>
+              <button class="calc__btn calc__number">5</button>
+              <button class="calc__btn calc__number">6</button>
+              <button class="calc__btn func__symbal multiplication">&#10006;</button>
+
+              <button class="calc__btn calc__number">1</button>
+              <button class="calc__btn calc__number">2</button>
+              <button class="calc__btn calc__number">3</button>
+              
+              <button class="calc__btn func__symbal minus">&minus;</button>
+
+              <button class="calc__btn plusminus">&plusmn;</button>
+              <button class="calc__btn calc__number">0</button>
+              <button class="calc__btn dot"><b>.</b></button>
+              <button class="calc__btn func__symbal plus">&plus;</button>
+
+              <a class="calc__btn btn__image--wrap" href="https://rs.school">
+                <img class="btn__image" src="images/logo-rs-school.svg" alt="RS-logo">
+              </a>
+              <button class="calc__btn btn__equal">=</button>
+            </div>
+          </section>
+      </div>
+    </div>
+  </main>
+  
+<script src="js/calc.js"></script>
+
+</body>
+</html>
